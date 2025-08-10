@@ -174,7 +174,7 @@ Scripts\activate  # Windows
 ### **Paso 2: Clonación del Repositorio**
 ```bash
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/youtube-music-setup-simulator.git
+git clone https://github.com/Angel-Rojas-ING/Simulador-de-Instalaci-n-de-YouTube-Music.git
 
 # Navegar al directorio del proyecto
 cd youtube-music-setup-simulator
