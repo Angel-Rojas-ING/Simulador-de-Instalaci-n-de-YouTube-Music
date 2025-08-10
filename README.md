@@ -1,4 +1,4 @@
-# 🎵 Simulador de Instalación de YouTube Music
+# 🎵 YouTube Music Setup Simulator
 
 <div align="center">
 
@@ -6,271 +6,339 @@
 ![Plataforma](https://img.shields.io/badge/Plataforma-Windows-lightgrey?style=for-the-badge&logo=windows&logoColor=white)
 ![Licencia](https://img.shields.io/badge/Licencia-MIT-green?style=for-the-badge)
 ![Estado](https://img.shields.io/badge/Estado-Educativo-orange?style=for-the-badge)
+![Ético](https://img.shields.io/badge/Uso-Educativo%20Únicamente-red?style=for-the-badge)
 
 *Un simulador GUI sofisticado que recrea la experiencia auténtica de instalación de YouTube Music*
 
-**⚠️ PROYECTO EXCLUSIVAMENTE EDUCATIVO ⚠️**
+**⚠️ PROYECTO EXCLUSIVAMENTE EDUCATIVO - FINES DE INVESTIGACIÓN EN SEGURIDAD ⚠️**
 
 </div>
 
 ---
 
-## ✨ Descripción General
+## 🎯 Descripción General
 
-El **Simulador de Instalación de YouTube Music** es una aplicación Python meticulosamente diseñada que reproduce de manera fidedigna la interfaz de instalación de software profesional. Este proyecto educativo ha sido desarrollado con el propósito específico de demostrar técnicas avanzadas de desarrollo GUI, simulación de procesos y diseño de interfaces de usuario modernas.
+El **YouTube Music Setup Simulator** es una aplicación Python meticulosamente diseñada que reproduce con precisión la interfaz de instalación de software profesional. Este proyecto ha sido desarrollado **exclusivamente con fines educativos** para demostrar técnicas de ingeniería social, análisis de seguridad y comprensión de vectores de ataque comunes en ciberseguridad.
 
-### 🎯 **Propósito Educativo**
+### 🎓 **Propósito Educativo**
+Este simulador está diseñado para:
+- **Investigación en Ciberseguridad** - Análisis de técnicas de ingeniería social
+- **Educación en Seguridad Informática** - Demostración de vectores de ataque comunes
+- **Desarrollo de Defensas** - Comprensión de métodos de phishing y social engineering
+- **Concienciación de Usuarios** - Educación sobre identificación de software malicioso
 
-Este simulador fue creado con fines **exclusivamente educativos** para:
-- Demostrar técnicas avanzadas de programación en Python
-- Enseñar desarrollo de interfaces gráficas con Tkinter
-- Ilustrar principios de diseño UX/UI profesional
-- Mostrar implementación de animaciones y efectos visuales
-- Ejemplificar manejo de hilos y procesos asíncronos
+## 🚨 AVISO LEGAL IMPORTANTE
 
-## 🚨 ADVERTENCIA LEGAL IMPORTANTE
+### ⚖️ **Disclaimer Legal Completo**
 
-> ### ⚖️ **DESCARGO DE RESPONSABILIDAD LEGAL**
-> 
-> **ESTE SOFTWARE ES ÚNICAMENTE PARA FINES EDUCATIVOS Y DE DEMOSTRACIÓN**
-> 
-> - ✅ **Permitido**: Uso académico, aprendizaje, investigación educativa
-> - ✅ **Permitido**: Análisis de código, estudio de técnicas de programación
-> - ✅ **Permitido**: Desarrollo de proyectos similares con fines educativos
-> 
-> - ❌ **PROHIBIDO**: Uso con intención maliciosa o fraudulenta
-> - ❌ **PROHIBIDO**: Distribución con fines de engaño o estafa
-> - ❌ **PROHIBIDO**: Modificación para actividades ilegales
-> - ❌ **PROHIBIDO**: Uso comercial sin autorización explícita
-> 
-> **EL USUARIO ASUME TODA LA RESPONSABILIDAD** por el uso de este software. Los desarrolladores NO se hacen responsables por cualquier uso indebido, daño, pérdida o consecuencia legal derivada del uso de este código.
-> 
-> **IMPORTANTE**: Este proyecto NO está afiliado, asociado, autorizado, respaldado por, o de ninguna manera oficialmente conectado con YouTube, Google, o cualquiera de sus subsidiarias o afiliadas.
+**ESTE SOFTWARE SE PROPORCIONA "TAL COMO ESTÁ" Y ÚNICAMENTE CON FINES EDUCATIVOS**
 
-## 🎯 Características Principales
+#### **Términos de Uso Obligatorios:**
 
-### 🎨 **Excelencia Visual**
-- **Interfaz Moderna Oscura** - Tema sofisticado con branding de YouTube Music
-- **Diseño Auténtico** - Meticulosamente diseñado para reflejar instaladores reales
-- **Animaciones Fluidas** - Transiciones de progreso suaves con temporización realista
-- **Diseño Responsivo** - Ventana perfectamente centrada y no redimensionable
+1. **USO EXCLUSIVAMENTE EDUCATIVO**: Este proyecto está diseñado únicamente para fines de investigación, educación en ciberseguridad y concienciación sobre seguridad informática.
 
-### ⚡ **Funcionalidad Avanzada**
-- **Simulación de Progreso Dinámico** - Sistema inteligente de seguimiento de progreso
-- **Mensajes Contextuales** - Actualizaciones realistas del estado de instalación
+2. **PROHIBICIÓN DE USO MALICIOSO**: Queda ESTRICTAMENTE PROHIBIDO el uso de este software para:
+   - Actividades ilegales o maliciosas
+   - Distribución de malware real
+   - Engaño o fraude a usuarios
+   - Violación de términos de servicio
+   - Cualquier actividad que cause daño
+
+3. **RESPONSABILIDAD DEL USUARIO**: El usuario es COMPLETAMENTE RESPONSABLE del uso de este software y debe:
+   - Cumplir con todas las leyes locales, nacionales e internacionales
+   - Obtener permisos explícitos antes de cualquier demostración
+   - Usar únicamente en entornos controlados y autorizados
+   - No distribuir sin las advertencias apropiadas
+
+4. **EXENCIÓN DE RESPONSABILIDAD**: Los desarrolladores NO se hacen responsables de:
+   - Uso indebido del software
+   - Daños directos o indirectos resultantes del uso
+   - Violaciones legales cometidas por terceros
+   - Mal uso en entornos no autorizados
+
+5. **CUMPLIMIENTO LEGAL**: El uso de este software debe cumplir con:
+   - Leyes de ciberseguridad locales
+   - Regulaciones de protección de datos (GDPR, CCPA, etc.)
+   - Términos de servicio de plataformas
+   - Códigos éticos de investigación en seguridad
+
+#### **Advertencias Específicas:**
+- ⚠️ **NO** usar en sistemas de terceros sin autorización explícita
+- ⚠️ **NO** distribuir como software legítimo
+- ⚠️ **NO** modificar para propósitos maliciosos
+- ⚠️ **NO** usar para obtener acceso no autorizado
+
+### 🔒 **Uso Ético y Responsable**
+
+Este proyecto sigue los principios de **Divulgación Responsable** y **Hacking Ético**:
+- Transparencia total en el código fuente
+- Documentación clara de propósitos educativos
+- Advertencias prominentes sobre uso apropiado
+- Colaboración con la comunidad de ciberseguridad
+
+---
+
+## ✨ Características Técnicas
+
+### 🎨 **Interfaz Visual Avanzada**
+- **Tema Oscuro Moderno** - Interfaz sofisticada con branding de YouTube Music
+- **Diseño Auténtico** - Recreación pixel-perfect de interfaces de instalación reales
+- **Animaciones Fluidas** - Transiciones suaves con temporización realista
+- **Diseño Responsivo** - Ventana centrada y no redimensionable
+
+### ⚡ **Funcionalidades Técnicas**
+- **Simulación de Progreso Dinámica** - Seguimiento inteligente de progreso 0% a 100%
+- **Mensajes Contextuales** - Actualizaciones realistas de estado de instalación
 - **Control de Procesos** - Experiencia controlada con controles de ventana deshabilitados
 - **Finalización Automática** - Terminación elegante con confirmación de éxito
 
-### 🛡️ **Características Técnicas**
-- **Integración Administrativa** - Elevación fluida para operaciones a nivel del sistema
+### 🛡️ **Características Profesionales**
+- **Integración Administrativa** - Elevación fluida para operaciones a nivel de sistema
 - **Manejo de Errores** - Gestión robusta de errores y recuperación
-- **Soporte Multi-Librería** - Diseño modular con componentes opcionales
-- **Integración de Webhooks** - Capacidades opcionales de monitoreo remoto
+- **Soporte Multi-Biblioteca** - Diseño modular con componentes opcionales
+- **Integración Webhook** - Capacidades opcionales de monitoreo remoto
 
 ## 📋 Requisitos del Sistema
 
+### **Especificaciones Mínimas**
 | Componente | Especificación |
-|------------|----------------|
+|-----------|----------------|
 | **Sistema Operativo** | Windows 7/8/10/11 (x64) |
-| **Versión de Python** | 3.7+ (recomendado: 3.10+) |
-| **Memoria RAM** | 512 MB mínimo, 1GB recomendado |
-| **Almacenamiento** | 100 MB de espacio disponible |
-| **Procesador** | Intel/AMD x64 compatible |
+| **Versión Python** | 3.7+ (recomendado: 3.9+) |
+| **Memoria RAM** | 512 MB mínimo |
+| **Espacio en Disco** | 100 MB disponible |
+| **Privilegios** | Administrador (recomendado) |
 
-## 📦 Dependencias Detalladas
+### **Especificaciones Recomendadas**
+| Componente | Especificación |
+|-----------|----------------|
+| **Sistema Operativo** | Windows 10/11 (x64) |
+| **Versión Python** | 3.10+ |
+| **Memoria RAM** | 2 GB o más |
+| **Espacio en Disco** | 500 MB disponible |
+| **Conexión Internet** | Banda ancha (para webhooks) |
 
-### **Librerías Centrales**
+## 📦 Dependencias y Bibliotecas
+
+### **Bibliotecas Principales (Obligatorias)**
 ```bash
-# Componentes esenciales (incluidos con Python)
+# Componentes esenciales (auto-instalados con Python)
 tkinter                 # Framework GUI principal
-threading              # Manejo de hilos para animaciones
-time                   # Control de temporización
 os                     # Operaciones del sistema operativo
+sys                    # Parámetros y funciones específicas del sistema
+time                   # Funciones de tiempo y retrasos
+threading              # Programación multihilo
+
+# Bibliotecas externas requeridas
+pywin32                # Integración API de Windows
+pycryptodomex          # Operaciones criptográficas avanzadas
 ```
 
-### **Librerías Externas Requeridas**
+### **Bibliotecas Opcionales (Funcionalidad Extendida)**
 ```bash
-# Instalación de dependencias principales
-pip install pywin32                # Integración con API de Windows
-pip install pycryptodomex          # Operaciones criptográficas avanzadas
+requests               # Solicitudes HTTP y webhooks
+psutil                 # Gestión de procesos del sistema
+pillow                 # Procesamiento de imágenes (PIL)
+pygame                 # Audio y efectos de sonido
+win32api              # API extendida de Windows
+win32con              # Constantes de Windows
+win32gui              # Interfaz gráfica de Windows
+winreg                # Acceso al registro de Windows
 ```
 
-### **Mejoras Opcionales**
+### **Instalación de Dependencias**
 ```bash
-# Funcionalidades adicionales (opcionales pero recomendadas)
-pip install requests               # Solicitudes HTTP y webhooks
-pip install psutil                 # Gestión de procesos del sistema
-pip install pillow                 # Procesamiento avanzado de imágenes
-pip install plyer                  # Notificaciones del sistema
+# Instalación básica
+pip install pywin32 pycryptodomex
+
+# Instalación completa (recomendada)
+pip install pywin32 pycryptodomex requests psutil pillow pygame
+
+# Instalación desde requirements.txt
+pip install -r requirements.txt
 ```
 
-## 🚀 Guía de Instalación Completa
+## 🚀 Guía de Instalación Detallada
 
 ### **Paso 1: Preparación del Entorno**
 ```bash
-# Verificar versión de Python (debe ser 3.7+)
+# Verificar versión de Python
 python --version
 
 # Crear entorno virtual (recomendado)
 python -m venv youtube_music_simulator
 cd youtube_music_simulator
-Scripts\activate  # En Windows
+Scripts\activate  # Windows
 ```
 
-### **Paso 2: Obtención del Código**
+### **Paso 2: Clonación del Repositorio**
 ```bash
 # Clonar el repositorio
 git clone https://github.com/tu-usuario/youtube-music-setup-simulator.git
 
 # Navegar al directorio del proyecto
 cd youtube-music-setup-simulator
+
+# Verificar integridad de archivos
+dir /s  # Windows
 ```
 
-### **Paso 3: Instalación de Dependencias**
-```bash
-# Instalar dependencias principales
-pip install -r requirements.txt
 
-# Instalación manual si no existe requirements.txt
-pip install pywin32 pycryptodomex requests psutil pillow plyer
-```
-
-### **Paso 4: Verificación de Instalación**
+### **Paso 3: Ejecución del Simulador**
 ```bash
-# Verificar que todas las librerías estén instaladas
-python -c "import tkinter, win32api, Cryptodome, requests, psutil; print('✅ Todas las dependencias instaladas correctamente')"
-```
-
-### **Paso 5: Ejecución**
-```bash
-# Ejecutar con privilegios de administrador (recomendado)
-# Hacer clic derecho en cmd/PowerShell -> "Ejecutar como administrador"
+# Ejecución básica
 python youtube_music_setup.py
+
+# Ejecución con privilegios administrativos (recomendado)
+# Ejecutar terminal como administrador, luego:
+python youtube_music_setup.py
+
+# Ejecución en modo debug
+python youtube_music_setup.py --debug
 ```
 
-## 💡 Guía de Uso Detallada
+## 💡 Guía de Uso Completa
 
 ### **Operación Básica**
 1. **Inicialización** - Ejecutar el script para inicializar la GUI de instalación
-2. **Observación** - Observar la simulación auténtica de progreso
-3. **Interacción** - La aplicación es completamente autónoma durante la simulación
-4. **Finalización** - Terminación automática tras completación exitosa
+2. **Observación** - Observar la simulación auténtica de progreso desarrollarse
+3. **Interacción** - La aplicación es completamente automatizada
+4. **Finalización** - La aplicación se cierra automáticamente al completarse
+
+### **Fases de Simulación Detalladas**
+
+| Fase | Duración | Descripción Técnica | Mensajes Mostrados |
+|------|----------|--------------------|--------------------|
+| **Inicialización** | 2-4s | Verificaciones de compatibilidad del sistema | "Iniciando instalador...", "Verificando sistema..." |
+| **Descarga** | 15-25s | Simulación de descarga de paquetes | "Descargando YouTube Music...", "Obteniendo componentes..." |
+| **Extracción** | 8-15s | Descompresión de archivos simulada | "Extrayendo archivos...", "Preparando instalación..." |
+| **Instalación** | 12-20s | Despliegue de archivos y actualizaciones del registro | "Instalando componentes...", "Configurando sistema..." |
+| **Configuración** | 6-10s | Configuración de preferencias y biblioteca | "Configurando biblioteca musical...", "Aplicando preferencias..." |
+| **Finalización** | 3-7s | Limpieza y verificación | "Finalizando instalación...", "Verificando instalación..." |
 
 ### **Elementos Interactivos**
 - **Barra de Progreso** - Retroalimentación visual en tiempo real con display de porcentaje
 - **Mensajes de Estado** - Actualizaciones dinámicas reflejando fases de instalación
 - **Controles de Ventana** - Temporalmente deshabilitados para experiencia controlada
-- **Finalización Automática** - Cierre automático con notificación de éxito
+- **Auto-Completado** - Cierre automático con notificación de éxito
 
-### **Funcionalidades Avanzadas**
-- **Modo Debug** - Información detallada de procesos internos
-- **Log de Actividades** - Registro completo de todas las operaciones
-- **Personalización Visual** - Temas y colores configurables
-- **Integración de Sistema** - Interacción con APIs de Windows
 
-## 📁 Arquitectura del Proyecto
+### **Componentes Técnicos Principales**
 
-```
-youtube-music-setup-simulator/
-│
-├── 📄 youtube_music_setup.py      # Punto de entrada principal
-├── 📄 README.md                   # Documentación completa
-├── 📄 LICENSE                     # Términos de licencia MIT
-├── 📄 requirements.txt            # Dependencias del proyecto
-├── 📄 .gitignore                  # Archivos ignorados por Git
-│
-├── 📁 src/                        # Código fuente modular
-│   ├── 📄 __init__.py            # Inicializador del módulo
-│   ├── 📄 gui_manager.py         # Gestión de interfaz gráfica
-│   ├── 📄 progress_simulator.py  # Lógica de simulación de progreso
-│   ├── 📄 system_integration.py  # Integración con el sistema
-│   └── 📄 config.py              # Configuraciones y constantes
-│
-├── 📁 assets/                     # Recursos del proyecto
-│   ├── 🖼️ icons/                 # Iconos de la aplicación
-│   │   ├── youtube_music.ico     # Icono principal
-│   │   └── installer.png         # Logo del instalador
-│   ├── 🎨 themes/                # Temas visuales
-│   │   ├── dark_theme.json       # Tema oscuro
-│   │   └── light_theme.json      # Tema claro
-│   └── 🔊 sounds/                # Efectos de sonido (opcional)
-│       └── completion.wav        # Sonido de finalización
-│
-├── 📁 docs/                       # Documentación adicional
-│   ├── 📄 CONTRIBUTING.md        # Guías de contribución
-│   ├── 📄 CHANGELOG.md           # Historial de versiones
-│   ├── 📄 CODE_OF_CONDUCT.md     # Código de conducta
-│   └── 📄 SECURITY.md            # Políticas de seguridad
-│
-├── 📁 tests/                      # Pruebas unitarias
-│   ├── 📄 __init__.py            # Inicializador de tests
-│   ├── 📄 test_gui.py            # Pruebas de interfaz
-│   ├── 📄 test_progress.py       # Pruebas de simulación
-│   └── 📄 test_system.py         # Pruebas de integración
-│
-└── 📁 examples/                   # Ejemplos de uso
-    ├── 📄 basic_usage.py         # Uso básico
-    ├── 📄 advanced_config.py     # Configuración avanzada
-    └── 📄 custom_themes.py       # Temas personalizados
+#### **1. GUI Manager (`gui_manager.py`)**
+```python
+# Funcionalidades principales:
+- Creación y gestión de ventana principal
+- Aplicación de temas y estilos
+- Manejo de eventos de ventana
+- Renderizado de elementos visuales
 ```
 
-## 🎬 Fases Detalladas de Simulación
+#### **2. Progress Simulator (`progress_simulator.py`)**
+```python
+# Funcionalidades principales:
+- Cálculo de incrementos de progreso
+- Temporización realista de fases
+- Gestión de hilos de ejecución
+- Simulación de operaciones de archivo
+```
 
-El simulador recrea estas fases auténticas de instalación:
-
-| Fase | Duración | Descripción Técnica | Acciones Simuladas |
-|------|----------|--------------------|--------------------|
-| **Inicialización** | 2-4s | Verificaciones de compatibilidad del sistema | Verificar Windows, RAM, espacio en disco |
-| **Descarga** | 15-25s | Simulación de descarga de paquetes | Progreso de descarga variable, verificación de checksums |
-| **Extracción** | 8-15s | Descompresión de archivos | Extracción de archivos, validación de integridad |
-| **Instalación** | 12-20s | Despliegue de archivos y actualizaciones de registro | Copia de archivos, modificaciones de registro |
-| **Configuración** | 6-10s | Configuración de preferencias y biblioteca | Configuración de usuario, indexación de medios |
-| **Finalización** | 3-6s | Limpieza y verificación | Limpieza de archivos temporales, verificación final |
+#### **3. Message Handler (`message_handler.py`)**
+```python
+# Funcionalidades principales:
+- Base de datos de mensajes contextuales
+- Selección aleatoria de mensajes
+- Sincronización con fases de progreso
+- Localización de mensajes
+```
 
 ## 🔧 Configuración Avanzada
 
 ### **Opciones de Personalización**
 ```python
-# Configuraciones disponibles en config.py
-class Config:
-    # Configuraciones de Apariencia
-    WINDOW_WIDTH = 500
-    WINDOW_HEIGHT = 300
-    THEME = "dark"  # "dark", "light", "custom"
-    
-    # Configuraciones de Animación
-    PROGRESS_SPEED = 1.0          # Multiplicador de velocidad
-    ANIMATION_SMOOTH = True       # Animaciones suaves
-    FRAME_RATE = 60              # FPS de animaciones
-    
-    # Configuraciones de Funcionalidad
-    ENABLE_SOUNDS = False         # Efectos de sonido
-    ENABLE_LOGGING = True         # Registro de actividades
-    DEBUG_MODE = False           # Modo de depuración
-    AUTO_CLOSE = True            # Cierre automático
-    
-    # Configuraciones de Red (Opcional)
-    WEBHOOK_ENABLED = False      # Webhooks habilitados
-    WEBHOOK_URL = ""             # URL de webhook
-    TIMEOUT_SECONDS = 30         # Timeout de conexión
+# Archivo config.py - Variables de configuración principales
+
+# Configuración de Apariencia
+WINDOW_WIDTH = 500              # Ancho de ventana
+WINDOW_HEIGHT = 300             # Alto de ventana
+PROGRESS_COLOR = "#FF0000"      # Color de barra de progreso
+BACKGROUND_COLOR = "#1a1a1a"    # Color de fondo
+TEXT_COLOR = "#ffffff"          # Color de texto
+
+# Configuración de Comportamiento
+PROGRESS_SPEED = 1.0            # Multiplicador de velocidad de animación
+MIN_PHASE_DURATION = 2.0        # Duración mínima de fase (segundos)
+MAX_PHASE_DURATION = 8.0        # Duración máxima de fase (segundos)
+ENABLE_SOUNDS = False           # Activar efectos de sonido
+DEBUG_MODE = False              # Modo de depuración
+
+# Configuración de Mensajes
+LANGUAGE = "es"                 # Idioma de mensajes (es/en)
+RANDOM_MESSAGES = True          # Mensajes aleatorios por fase
+SHOW_TECHNICAL_INFO = False     # Mostrar información técnica
+
+# Configuración de Red (Opcional)
+ENABLE_WEBHOOKS = False         # Activar webhooks
+WEBHOOK_URL = ""                # URL del webhook
+WEBHOOK_TIMEOUT = 10            # Timeout de webhook (segundos)
 ```
 
-### **Temas Personalizados**
+### **Configuración de Webhooks**
 ```python
-# Ejemplo de tema personalizado
-CUSTOM_THEME = {
-    "background": "#1a1a1a",
-    "foreground": "#ffffff",
-    "progress_bar": "#ff0000",
-    "progress_bg": "#333333",
-    "button_color": "#ff0000",
-    "text_color": "#ffffff"
+# Ejemplo de configuración de webhook
+WEBHOOK_CONFIG = {
+    "enabled": True,
+    "url": "https://tu-servidor.com/webhook",
+    "events": ["start", "progress", "complete"],
+    "headers": {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer tu-token"
+    },
+    "timeout": 15,
+    "retry_attempts": 3
 }
 ```
 
-## 🧪 Pruebas y Desarrollo
+### **Configuración de Logging**
+```python
+# Configuración de sistema de logs
+LOGGING_CONFIG = {
+    "level": "INFO",                    # DEBUG, INFO, WARNING, ERROR
+    "format": "%(asctime)s - %(levelname)s - %(message)s",
+    "file": "simulator.log",
+    "max_size": "10MB",
+    "backup_count": 5
+}
+```
 
-### **Ejecutar Pruebas**
+## 🔍 Análisis de Seguridad
+
+### **Vectores de Ataque Demostrados**
+1. **Ingeniería Social Visual** - Imitación de interfaces legítimas
+2. **Abuse de Confianza** - Uso de marcas reconocidas
+3. **Evasión de Detección** - Comportamiento aparentemente legítimo
+4. **Persistencia Psicológica** - Proceso de instalación convincente
+
+### **Técnicas de Defensa Educadas**
+1. **Verificación de Origen** - Siempre descargar de fuentes oficiales
+2. **Análisis de Certificados** - Verificar firmas digitales
+3. **Sandboxing** - Ejecutar software desconocido en entornos aislados
+4. **Análisis de Comportamiento** - Monitorear actividades inusuales
+
+### **Indicadores de Compromiso (IoCs)**
+```python
+# Ejemplos de IoCs que este simulador podría generar
+POTENTIAL_IOCS = {
+    "file_hashes": ["MD5", "SHA1", "SHA256"],
+    "network_connections": ["webhook URLs", "suspicious domains"],
+    "registry_modifications": ["startup entries", "system changes"],
+    "file_system_changes": ["created files", "modified directories"]
+}
+```
+
+## 🧪 Testing y Calidad de Código
+
+### **Suite de Pruebas**
 ```bash
 # Ejecutar todas las pruebas
 python -m pytest tests/
@@ -278,105 +346,167 @@ python -m pytest tests/
 # Ejecutar pruebas específicas
 python -m pytest tests/test_gui.py -v
 
-# Ejecutar con cobertura
+# Ejecutar con coverage
 python -m pytest --cov=src tests/
+
+# Ejecutar pruebas de seguridad
+python -m pytest tests/test_security.py --strict
 ```
 
-### **Modo de Desarrollo**
+### **Análisis de Código**
 ```bash
-# Activar modo debug
-python youtube_music_setup.py --debug
+# Análisis de calidad de código
+pylint src/
+flake8 src/
+black src/ --check
 
-# Ejecutar con logging detallado
-python youtube_music_setup.py --verbose
+# Análisis de seguridad
+bandit -r src/
+safety check
+```
 
-# Modo de desarrollo con recarga automática
-python youtube_music_setup.py --dev
+### **Benchmarking de Rendimiento**
+```python
+# Métricas de rendimiento típicas
+PERFORMANCE_METRICS = {
+    "startup_time": "< 2 segundos",
+    "memory_usage": "< 50MB",
+    "cpu_usage": "< 5%",
+    "gui_response_time": "< 100ms"
+}
 ```
 
 ## 🤝 Contribución y Desarrollo
 
-### **Cómo Contribuir**
-1. **Fork** el repositorio en tu cuenta de GitHub
-2. **Crea** una rama de feature (`git checkout -b feature/mejora-increible`)
-3. **Desarrolla** tus mejoras siguiendo las mejores prácticas
-4. **Prueba** exhaustivamente en diferentes entornos
-5. **Documenta** los cambios en el código y README si es necesario
-6. **Commit** con mensajes descriptivos (`git commit -m "Añadir: Animaciones mejoradas de progreso"`)
-7. **Push** a tu rama (`git push origin feature/mejora-increible`)
-8. **Crea** un Pull Request con descripción detallada
+### **Guía de Contribución**
+1. **Fork del Repositorio** - Crear fork en tu cuenta de GitHub
+2. **Clonar Localmente** - Clonar tu fork localmente
+3. **Crear Rama de Característica** - `git checkout -b feature/nueva-caracteristica`
+4. **Implementar Cambios** - Desarrollar nuevas funcionalidades
+5. **Pruebas Exhaustivas** - Probar en múltiples entornos
+6. **Commit Descriptivo** - `git commit -m "Add: Animaciones mejoradas de progreso"`
+7. **Push a Rama** - `git push origin feature/nueva-caracteristica`
+8. **Pull Request** - Enviar PR con descripción detallada
 
-### **Estándares de Código**
-- Seguir PEP 8 para estilo de código Python
-- Incluir docstrings comprensivos para todas las funciones
-- Añadir pruebas unitarias para nueva funcionalidad
-- Mantener compatibilidad hacia atrás cuando sea posible
-- Documentar cambios en CHANGELOG.md
+### **Estándares de Desarrollo**
+- **Código Python**: Seguir PEP 8 y PEP 257
+- **Documentación**: Docstrings completos en español
+- **Pruebas**: Cobertura mínima del 80%
+- **Seguridad**: Análisis con herramientas de seguridad
+- **Compatibilidad**: Mantener compatibilidad hacia atrás
 
-### **Proceso de Review**
-- Todas las contribuciones pasan por revisión de código
-- Se requieren pruebas para nueva funcionalidad
-- Documentación actualizada es obligatoria
-- Compatibilidad multi-plataforma preferida
+### **Áreas de Contribución Prioritarias**
+- 🎨 **Mejoras de UI/UX** - Nuevos temas y animaciones
+- 🔒 **Características de Seguridad** - Análisis y detección mejorados
+- 🌐 **Internacionalización** - Soporte para más idiomas
+- 📊 **Analytics y Métricas** - Mejores capacidades de logging
+- 🛠️ **Herramientas de Desarrollo** - Scripts de automatización
 
-## 🛡️ Seguridad y Consideraciones Éticas
+## 📊 Métricas y Analytics
 
-### **Consideraciones de Seguridad**
-- El código es completamente open source y auditable
-- No recopila información personal del usuario
-- No establece conexiones de red no autorizadas
-- Todas las operaciones son locales al sistema
+### **Métricas de Uso (Para Investigación)**
+```python
+# Ejemplos de métricas que pueden recopilarse para investigación
+RESEARCH_METRICS = {
+    "execution_time": "tiempo total de ejecución",
+    "user_interactions": "clics e intentos de interacción",
+    "phase_completion_rates": "tasas de finalización por fase",
+    "error_rates": "frecuencia de errores",
+    "detection_rates": "detección por software antivirus"
+}
+```
 
-### **Uso Ético**
-- Diseñado exclusivamente para educación y demostración
-- No debe usarse para engañar o defraudar usuarios
-- Respetar derechos de autor y marcas registradas
-- Cumplir con leyes locales e internacionales
+### **Dashboard de Monitoreo**
+- **Tiempo Real** - Monitoreo de ejecuciones activas
+- **Estadísticas Históricas** - Análisis de tendencias
+- **Detección de Anomalías** - Identificación de comportamientos inusuales
+- **Reportes de Seguridad** - Análisis de detecciones de seguridad
 
-## 📜 Licencia y Términos Legales
+## 🔄 Ciclo de Vida del Proyecto
 
-Este proyecto está licenciado bajo la **Licencia MIT** - consulta el archivo [LICENSE](LICENSE) para términos completos y condiciones.
+### **Roadmap de Desarrollo**
 
-### **Términos Adicionales**
-- El uso de este software implica aceptación de estos términos
-- Los desarrolladores no son responsables del uso indebido
-- Este proyecto no está afiliado con YouTube, Google, o Alphabet Inc.
-- Las marcas comerciales pertenecen a sus respectivos propietarios
+#### **Versión 1.0 (Actual)**
+- ✅ Simulador básico funcional
+- ✅ Interfaz gráfica completa
+- ✅ Documentación comprehensiva
+- ✅ Disclaimers legales
 
-## 🌟 Reconocimientos
+#### **Versión 1.1 (Próxima)**
+- 🔄 Mejoras de rendimiento
+- 🔄 Nuevos temas visuales
+- 🔄 Soporte para múltiples idiomas
+- 🔄 Analytics mejorados
 
-### **Tecnologías Utilizadas**
-- **Python** - Lenguaje de programación principal
-- **Tkinter** - Framework de interfaz gráfica
-- **PyWin32** - Integración con APIs de Windows
-- **PyCryptodome** - Operaciones criptográficas
+#### **Versión 2.0 (Futuro)**
+- 📋 Múltiples simuladores de software
+- 📋 Framework de detección
+- 📋 API RESTful
+- 📋 Interfaz web
 
-### **Inspiración**
-- Instaladores modernos de software profesional
-- Principios de diseño UX/UI contemporáneos
-- Mejores prácticas de desarrollo de interfaces
+### **Proceso de Release**
+1. **Development** - Desarrollo en ramas de características
+2. **Testing** - Pruebas exhaustivas automatizadas
+3. **Security Review** - Revisión de seguridad completa
+4. **Documentation** - Actualización de documentación
+5. **Release** - Publicación con changelog detallado
 
+## 📚 Recursos Educativos
+
+### **Material de Aprendizaje**
+- **Cursos Recomendados** - Ciberseguridad y ethical hacking
+- **Libros de Referencia** - Ingeniería social y análisis de malware
+- **Conferencias** - DEF CON, Black Hat, BSides
+- **Certificaciones** - CEH, OSCP, CISSP
+
+### **Herramientas Relacionadas**
+- **Análisis de Malware** - IDA Pro, Ghidra, x64dbg
+- **Detección de Amenazas** - YARA, Sigma, MISP
+- **Sandboxes** - Cuckoo, Joe Sandbox, Any.run
+- **Forense** - Volatility, Autopsy, SIFT
+
+---
+
+## 📜 Licencia
+
+Este proyecto está licenciado bajo la **Licencia MIT** - consulta el archivo [LICENSE](LICENSE) para términos y condiciones completos.
+
+### **Resumen de la Licencia MIT:**
+- ✅ Uso comercial permitido
+- ✅ Modificación permitida
+- ✅ Distribución permitida
+- ✅ Uso privado permitido
+- ❌ Sin garantía
+- ❌ Sin responsabilidad del autor
+
+---
+
+## 🔐 Declaración de Responsabilidad Final
+
+### **COMPROMISO CON EL USO ÉTICO**
+
+Los creadores y mantenedores de este proyecto se comprometen a:
+
+1. **Transparencia Total** - Todo el código es open source y auditable
+2. **Propósito Educativo** - Uso exclusivo para educación en ciberseguridad
+3. **Colaboración Responsable** - Trabajo con la comunidad de seguridad
+4. **Mejora Continua** - Actualizaciones constantes de seguridad y funcionalidad
+
+### **DECLARACIÓN ANTI-MALWARE**
+
+Este proyecto:
+- ❌ **NO contiene** código malicioso real
+- ❌ **NO recopila** información personal
+- ❌ **NO se comunica** con servidores externos sin consentimiento explícito
+- ❌ **NO modifica** el sistema del usuario sin autorización
+- ✅ **SÍ es** completamente transparente en su funcionamiento
 
 ---
 
 <div align="center">
 
-## ⚠️ RECORDATORIO FINAL DE RESPONSABILIDAD
+**"La educación es el arma más poderosa que puedes usar para cambiar el mundo." - Nelson Mandela**
 
-**ESTE PROYECTO ES EXCLUSIVAMENTE EDUCATIVO**
-
-El uso indebido de este software puede violar leyes locales e internacionales. Los usuarios son completamente responsables del cumplimiento de todas las regulaciones aplicables.
-
----
-
-**Desarrollado con 💖 para la comunidad educativa**
-
-[![GitHub stars](https://img.shields.io/github/stars/tu-usuario/youtube-music-setup-simulator?style=social)](https://github.com/tu-usuario/youtube-music-setup-simulator/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/tu-usuario/youtube-music-setup-simulator?style=social)](https://github.com/tu-usuario/youtube-music-setup-simulator/network/members)
-[![GitHub watchers](https://img.shields.io/github/watchers/tu-usuario/youtube-music-setup-simulator?style=social)](https://github.com/tu-usuario/youtube-music-setup-simulator/watchers)
-
-*Si este proyecto te ayudó en tu aprendizaje, ¡considera darle una ⭐!*
-
-**📖 Aprende • 🔍 Explora • 🤝 Contribuye • 🚀 Innova**
+*Si este proyecto contribuyó a tu educación en ciberseguridad, considera darle una ⭐ y compartirlo responsablemente*
 
 </div>
